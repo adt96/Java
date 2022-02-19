@@ -9,6 +9,7 @@ public class SumFirstNNaturalNumbers {
             sum +=i;
         }
         System.out.println(sum);
+        sc.close();
     }
     
 }
