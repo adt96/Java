@@ -32,6 +32,20 @@ public class ArrayDemo {
             }
             System.out.println();
         }
+        int a2[]={1,2,3,4};
+        for(int k:a2){
+            System.out.println(k);
+        }
+
+        //Emhanced For loop for 2D Arrays 
+        for(int k[]:d)
+        {
+            for(int l:k)
+            {
+                System.out.print(l);
+            }
+            System.out.println();
+        }
 
     }
     
